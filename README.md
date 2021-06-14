@@ -1,6 +1,6 @@
 # Startpage 
 
-Inspired by [Tilde](https://cadejscroggins.github.io/tilde/).
+![StartPage](https://raw.githubusercontent.com/moraisaugusto/startpage/images/demo.png)
 
 
 ## Demo
@@ -40,3 +40,5 @@ There's a shlew of options that you can configure. Just open up the `index.html`
 ## Beyond
 
 Feel free to use this and modify it however you like.
+
+Inspired by [Tilde](https://cadejscroggins.github.io/tilde/).
