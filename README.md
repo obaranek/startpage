@@ -3,9 +3,9 @@
 ![StartPage](https://raw.githubusercontent.com/moraisaugusto/startpage/master/images/demo.png)
 
 
-## Demo
+## Live demo
 
-[Demo](https://cdn.rawgit.com/aflavio/startpage/master/index.html)
+[Demo](https://cdn.rawgit.com/moraisaugusto/startpage/master/index.html)
 
 ## Usage
 
