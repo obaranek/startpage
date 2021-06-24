@@ -5,10 +5,10 @@
 
   var config = {
     categories: [
-      { name: "Google", commands: [
-        { key: 'd', name: 'Drive', url: 'https://drive.google.com/drive', search: '/search?q=' },
+      { name: "General", commands: [
+        { key: 'd', name: 'OneDrive', url: 'https://drive.google.com/drive', search: '/search?q=' },
+        { key: 'o', name: 'Outlook', url: 'https://outlook.office365.com/mail/', search: '/?q=' },
         { key: 'g', name: 'Gmail', url: 'https://gmail.com', search: '/#search/' },
-        { key: 'k', name: 'Keep', url: 'https://keep.google.com', search: '/#search/text=' },
         { key: 'nt', name: 'Netflix', url: 'https://www.netflix.com', search: '/search?q=' },
         { key: 'y', name: 'YouTube', url: 'https://www.youtube.com', search: '/results?search_query=' },
       ] },
@@ -57,7 +57,7 @@
     suggestionsLimit: 4,
 
     // open queries in a new tab.
-    newTab: true,
+    newTab: false,
 
     // the delimiter between the hours and minutes in the clock.
     clockDelimiter: ':',
