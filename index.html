@@ -7,33 +7,34 @@
     categories: [
       { name: "General", commands: [
         { key: 'od', name: 'OneDrive', url: 'https://uofwaterloo-my.sharepoint.com/personal/obaranek_uwaterloo_ca/_layouts/15/onedrive.aspx', search: '?q=' },
-        { key: 'o', name: 'Outlook', url: 'https://outlook.office365.com/mail/', search: '/?q=' },
-        { key: 'g', name: 'Gmail', url: 'https://gmail.com', search: '/#search/' },
+        { key: 'o', name: 'Outlook', url: 'https://outlook.office365.com/mail', search: '/?q=' },
+        { key: 'g', name: 'Gmail', url: 'https://gmail.com', search: '/#search' },
         { key: 'wa', name: 'Whatsapp', url: 'https://web.whatsapp.com', search: '#' },
         { key: 'm', name: 'Messenger', url: 'https://www.messenger.com', search: '#' },
-        { key: 'd', name: 'Discord', url: 'https://www.discord.com/app', search: '#' },
+        { key: 'd', name: 'discord', url: 'https://www.discord.com/app', search: '#' },
       ] },
       { name: "Devel", commands: [
         { key: 'gh', name: 'GitHub', url: 'https://github.com', search: '/search?q=' },
+        { key: 'hg', name: 'Hoogle', url: 'https://hoogle.haskell.org', search: '/hoogle=' },
+        { key: 'cpp', name: 'Cpp Reference', url: 'https://duckduckgo.com/?sites=cppreference.com', search: '&q=' },
       ] },
       { name: "News", commands: [
         { key: 'r', name: 'Reddit', url: 'http://www.reddit.com', search: '/search?q=' },
-        { key: 'hn', name: 'Hacker News', url: 'https://news.ycombinator.com/', search: '/?q=' },
+        { key: 'hn', name: 'Hacker News', url: 'https://news.ycombinator.com', search: '/?q=' },
+        { key: 'so', name: 'Stack Overflow', url: 'https://stackoverflow.com', search: '/search?q=' },
+      ] },
+      { name: "Education", commands: [
+        { key: 'lc', name: 'Leetcode', url: 'http://leetcode.com', search: '/problemset/all/?search=' },
+        { key: 'ps', name: 'Pluralsight', url: 'https://app.pluralsight.com/library', search: '/?q=' },
+        { key: 'l', name: 'Learn', url: 'https://learn.uwaterloo.ca/d2l/home', search: '/?q=' },
       ] },
       { name: "Entertainment", commands: [
         { key: 'nt', name: 'Netflix', url: 'https://www.netflix.com', search: '/search?q=' },
         { key: 'yt', name: 'YouTube', url: 'https://www.youtube.com', search: '/results?search_query=' },
-        { key: 's', name: 'Spotify', url: 'https://spotify.com', search: '/search?q=' },
-        { key: 'pv', name: 'Prime Video', url: 'https://www.primevideo.com', search: '/search/ref=atv_nb_sr?phrase=' },
         { key: 'f3', name: 'Fel3arda', url: 'https://goal.fel3arda.com', search: '#' },
         { key: 'bm', name: 'BeinMatch', url: 'https://beinmatchtv.tv', search: '#' },
         { key: 'ug', name: 'UsaGoals', url: 'https://www.usagoals.net', search: '#' },
-        { key: 'sw', name: 'Stream 2 Watch', url: 'https://cast.stream2watch.sx/', search: '#' },
-      ] },
-      { name: "Education", commands: [
-        { key: 'lc', name: 'Leetcode', url: 'http://leetcode.com', search: '/problemset/all/?search=' },
-        { key: 'ps', name: 'Pluralsight', url: 'https://app.pluralsight.com/library/', search: '/?q=' },
-        { key: 'l', name: 'Learn', url: 'https://learn.uwaterloo.ca/d2l/home', search: '/?q=' },
+        { key: 'sw', name: 'Stream 2 Watch', url: 'https://cast.stream2watch.sx', search: '#' },
       ] },
     ],
 
@@ -264,7 +265,7 @@
 <main>
   <time id="js-clock"></time>
   <form id="js-search-form" autocomplete="off">
-    <input id="js-search-input" clr/espass="search-input" type="text" autofocus>
+    <input id="js-search-input" class="search-input" type="text" autofocus>
     <ul id="js-search-suggestions" class="search-suggestions"></ul>
   </form>
 </main>
